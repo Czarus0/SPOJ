@@ -1,4 +1,4 @@
-package com.spoj.pl;
+package com.spoj.pl.easy;
 
 import java.util.ArrayList;
 import java.util.List;
