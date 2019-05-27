@@ -1,4 +1,5 @@
 package com.spoj.pl;
 
-public class Easy_549 {
+public class E568 {
+
 }

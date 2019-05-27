@@ -2,7 +2,7 @@ package com.spoj.pl;
 
 import java.util.Scanner;
 
-public class Easy_438 {
+public class E438 {
 	static final String IS_PRIME = "TAK";
 	static final String IS_NOT_PRIME = "NIE";
 	

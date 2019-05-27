@@ -3,7 +3,7 @@ package com.spoj.pl;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Easy_499 {
+public class E499 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int numberOfTests = scanner.nextInt();

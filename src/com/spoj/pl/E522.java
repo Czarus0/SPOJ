@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Easy_522 {
+public class E522 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int numberOfTests = scanner.nextInt();

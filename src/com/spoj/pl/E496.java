@@ -2,7 +2,7 @@ package com.spoj.pl;
 
 import java.util.Scanner;
 
-public class Easy_496 {
+public class E496 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int numberOfTests = scanner.nextInt();
