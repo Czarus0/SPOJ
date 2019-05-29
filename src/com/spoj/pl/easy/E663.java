@@ -1,5 +1,6 @@
 package com.spoj.pl.easy;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class E663 {
@@ -11,20 +12,20 @@ public class E663 {
 			int numberOfPoints = scanner.nextInt();
 			scanner.nextLine();
 				
-//				Point[] points = new Point[numberOfPoints];
+			Point[] points = new Point[numberOfPoints];
 				
 			for(int j = 0; j < numberOfPoints; j++) {
 				String[] dataOfPoint = scanner.nextLine().split(" ");
 				
-//				points[j] = new Point(dataOfPoint[0], Integer.parseInt(dataOfPoint[1]), Integer.parseInt(dataOfPoint[2]));
+				points[j] = new Point(dataOfPoint[0], Integer.parseInt(dataOfPoint[1]), Integer.parseInt(dataOfPoint[2]));
 			}
 				
-//				Arrays.sort(points);
-//				
-//				for(Point point : points) {
-//					System.out.println(point.toString());
-//				}
+			Arrays.sort(points);
+				
+			for(Point point : points) {
+				System.out.println(point.toString());
 			}
+		}
 			
 		scanner.close();
 	}
