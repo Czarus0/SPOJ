@@ -30,11 +30,24 @@ public class E1019 {
 		}
 		
 		builder.append(hexes[decimal]);
+		builder.reverse();
 		
 		return builder.toString();
 	}
 	
 	static String convertToElevens(int decimal) {
-		return "will be";
+		StringBuilder builder = new StringBuilder();
+		
+		while(decimal > 10) {
+			int rest = decimal % 11;
+			decimal = decimal / 11;
+			
+			builder.append(elevens[rest]);
+		}
+		
+		builder.append(elevens[decimal]);
+		builder.reverse();
+		
+		return builder.toString();
 	}
 }
