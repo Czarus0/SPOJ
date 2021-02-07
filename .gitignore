@@ -24,3 +24,6 @@ bin/
 *.rar
 *.tar
 *.zip
+
+.idea
+*.iml
