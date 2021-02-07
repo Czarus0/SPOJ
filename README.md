@@ -1,7 +1,7 @@
 SPOJ
 ====
 
-**Projekt powstał w celu::**
+**Projekt powstał w celu:**
 
 - przetestowania swoich umiejętności programistycznych
 
